@@ -13,7 +13,7 @@ import os
 load_dotenv()
 
 # Get the API key from the environment variable
-api_key = os.getenv("MY_API_KEY")
+api_key = os.getenv("MY_HF_API_KEY")
 
 def download_image(url):
     response = requests.get(url)
